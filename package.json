@@ -1,0 +1,11 @@
+{
+  "name": "yaml-merge",
+  "version": "0.1.0",
+  "description": "Merge multiple YAML documents into one",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.7.0",
+    "lodash": "^4.17.2"
+  }
+}
