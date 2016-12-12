@@ -1,6 +1,6 @@
 {
   "name": "@alexlafroscia/yaml-merge",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Merge multiple YAML documents into one",
   "main": "index.js",
   "bin": "bin/yaml-merge",
