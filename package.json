@@ -9,7 +9,7 @@
     "test": "mocha"
   },
   "files": [
-    "bin/yaml-merge.js",
+    "bin/yaml-merge",
     "index.js"
   ],
   "engines": {
