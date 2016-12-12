@@ -1,10 +1,13 @@
 # `yaml-merge`
 
 [![Build Status](https://travis-ci.org/alexlafroscia/yaml-merge.svg?branch=master)](https://travis-ci.org/alexlafroscia/yaml-merge)
+![Node Version](https://img.shields.io/badge/node-6.7.0+-green.svg)
 
 A super simple tool for merging `yaml` files.
 
 ## Installation
+
+Node v6 or higher is required.
 
 ### For the command line
 
@@ -53,10 +56,3 @@ const merge = require('yaml-merge');
 const output = merge(resolve('relative/path/to/file.yml'), '/Users/you/some/other/file.yml');
 console.log(output); // Writes out the resulting file, as a string
 ```
-
-## Requirements
-
-This package was developed against Node 6.7.0, so that's what's recommended. It required some newer Node versions, such as the [spread operator][spread-operator] and [template strings][template-strings]. Other versions may work, too.
-
-[spread-operator]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator
-[template-strings]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals

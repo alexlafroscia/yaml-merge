@@ -13,7 +13,7 @@
     "index.js"
   ],
   "engines": {
-    "node": ">= 5.11.0"
+    "node": ">= 6.7.0"
   },
   "dependencies": {
     "chai": "^3.5.0",
