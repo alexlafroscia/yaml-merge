@@ -1,11 +1,27 @@
 {
-  "name": "yaml-merge",
+  "name": "@alexlafroscia/yaml-merge",
   "version": "0.1.0",
   "description": "Merge multiple YAML documents into one",
   "main": "index.js",
+  "bin": {
+    "yaml-merge": "./bin/yaml-merge"
+  },
   "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "bin/yaml-merge.js",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 5.11.0"
+  },
   "dependencies": {
+    "chai": "^3.5.0",
+    "common-tags": "^1.4.0",
     "js-yaml": "^3.7.0",
-    "lodash": "^4.17.2"
+    "lodash": "^4.17.2",
+    "mocha": "^3.2.0"
   }
 }
