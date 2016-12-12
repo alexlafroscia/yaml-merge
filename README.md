@@ -1,5 +1,7 @@
 # `yaml-merge`
 
+[![Build Status](https://travis-ci.org/alexlafroscia/yaml-merge.svg?branch=master)](https://travis-ci.org/alexlafroscia/yaml-merge)
+
 A super simple tool for merging `yaml` files.
 
 ## Installation
