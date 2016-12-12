@@ -4,7 +4,7 @@
   "description": "Merge multiple YAML documents into one",
   "main": "index.js",
   "bin": {
-    "yaml-merge": "./bin/yaml-merge"
+    "yaml-merge": "./bin/yaml-merge.js"
   },
   "license": "MIT",
   "scripts": {
