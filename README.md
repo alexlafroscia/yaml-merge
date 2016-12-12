@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/alexlafroscia/yaml-merge.svg?branch=master)](https://travis-ci.org/alexlafroscia/yaml-merge)
 ![Node Version](https://img.shields.io/badge/node-6.7.0+-green.svg)
 
-A super simple tool for merging `yaml` files.
+A super simple tool for merging YAML files.
 
 ## Installation
 
