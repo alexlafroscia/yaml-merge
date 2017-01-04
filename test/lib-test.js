@@ -31,5 +31,15 @@ describe('merge logic', function() {
         value: c
     ` + '\n');
   });
+
+  it('allows keys to trickle in from all merge sources', function () {
+    const output = merge(...fixtureFiles('merge/a.yml', 'merge/b.yml'));
+    
+    expect(output).to.equal(stripIndent`
+      key:
+        first_value: a
+        second_value: b
+    ` + '\n');
+  });
 });
 
