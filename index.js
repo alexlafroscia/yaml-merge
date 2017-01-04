@@ -20,7 +20,7 @@ function readAsJSON(fileName) {
 function yamlMerge(...from) {
   const files = from.map((path) => readAsJSON(path));
 
-  const outputJSON = _.assign({}, ...files);
+  const outputJSON = _.merge({}, ...files);
   return jsYaml.dump(outputJSON);
 }
 
