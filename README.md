@@ -51,8 +51,8 @@ The provided file names will be resolved relative to the current directory. So, 
 
 ```javascript
 const resolve = require('path').resolve;
-const merge = require('yaml-merge');
+const { mergeFiles } = require('yaml-merge');
 
-const output = merge(resolve('relative/path/to/file.yml'), '/Users/you/some/other/file.yml');
+const output = mergeFiles([resolve('relative/path/to/file.yml'), '/Users/you/some/other/file.yml']);
 console.log(output); // Writes out the resulting file, as a string
 ```
