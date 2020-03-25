@@ -1,13 +1,10 @@
 # `yaml-merge`
 
 ![Verify](https://github.com/alexlafroscia/yaml-merge/workflows/Verify/badge.svg)
-![Node Version](https://img.shields.io/badge/node-6.7.0+-green.svg)
 
 A super simple tool for merging YAML files.
 
 ## Installation
-
-Node v6 or higher is required.
 
 ### For the command line
 
