@@ -6,7 +6,8 @@
   "bin": "bin/yaml-merge",
   "license": "MIT",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "release": "standard-version"
   },
   "files": [
     "bin/yaml-merge",
@@ -19,7 +20,8 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "common-tags": "^1.4.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "standard-version": "^7.1.0"
   },
   "volta": {
     "node": "12.16.1",
