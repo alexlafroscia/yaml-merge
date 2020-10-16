@@ -15,19 +15,19 @@
     "index.js"
   ],
   "dependencies": {
-    "js-yaml": "^3.7.0",
-    "lodash": "^4.17.2"
+    "js-yaml": "^3.14.0",
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "@movable/eslint-config": "^0.5.1",
-    "@movable/eslint-config-node": "^0.4.2",
-    "@movable/prettier-config": "^0.3.1",
+    "@movable/eslint-config": "^0.6.8",
+    "@movable/eslint-config-node": "^0.4.3",
+    "@movable/prettier-config": "^0.3.5",
     "chai": "^4.2.0",
     "common-tags": "^1.4.0",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.1",
-    "mocha": "^5.2.0",
-    "standard-version": "^8.0.1"
+    "mocha": "^8.1.3",
+    "standard-version": "^9.0.0"
   },
   "husky": {
     "hooks": {
