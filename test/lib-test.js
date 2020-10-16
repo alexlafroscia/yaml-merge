@@ -47,4 +47,16 @@ describe('merge logic', function () {
     ` + '\n'
     );
   });
+
+  it('concatenates arrays instead of overwriting them', function () {
+    const output = merge(...fixtureFiles('arrays/a.yml', 'arrays/b.yml'));
+
+    expect(output).to.equal(
+      stripIndent`
+      key:
+        - a
+        - b
+    ` + '\n'
+    );
+  });
 });
