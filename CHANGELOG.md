@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/alexlafroscia/yaml-merge/compare/v3.0.0...v4.0.0) (2021-01-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** Some serialization/deserialization behavior around quoting values has changed, which might affect the input/output of this tool.
+
+* **deps:** bump js-yaml from 3.14.1 to 4.0.0 ([4a33f7a](https://github.com/alexlafroscia/yaml-merge/commit/4a33f7aeeb4f947978c33e175a1bfd9dd6e2f3aa))
+
 ## [3.0.0](https://github.com/alexlafroscia/yaml-merge/compare/v2.0.0...v3.0.0) (2020-10-16)
 
 
