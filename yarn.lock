@@ -136,11 +136,11 @@
   integrity sha512-hs3DbWwouTYDZWcNy4wd+BIUPFYXhI8vnY3sP5ZbXvxooZzNM5BemrJz08HKI25STqHJC0U3oOIVoolQyfK+mQ==
 
 "@movable/prettier-config@^0.3.5":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@movable/prettier-config/-/prettier-config-0.3.5.tgz#2638c027f32ea2a5412210e27c2cfba319b42f88"
-  integrity sha512-ZBUBtKoocykpNktmfxhM0qS7/5OetIAQg8siPTCKKw8JIhta3OPFOtWmIX6MlQIwVU8HQle2zv4lJGBhl7RNfg==
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@movable/prettier-config/-/prettier-config-0.3.6.tgz#9f7b214a9b17316cecd9a341049f7467f2e1483d"
+  integrity sha512-vt28nuxkBi5yIeoa0jik4yL89EP4reLSS63Z98BgsdXYHRizAJ9Muw1l5WT64fqdTpI2RNU0aiTh11r06Ex1rg==
   dependencies:
-    prettier "^2.1.2"
+    prettier "^2.2.1"
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
@@ -2282,10 +2282,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
-  integrity sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
+prettier@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
+  integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
