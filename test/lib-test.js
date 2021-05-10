@@ -3,12 +3,17 @@
 'use strict';
 
 const resolve = require('path').resolve;
+const join = require('path').join;
 const expect = require('chai').expect;
 const stripIndent = require('common-tags').stripIndent;
 const merge = require('../index.js');
 
 function fixtureFiles(...names) {
   return names.map((fileName) => resolve(__dirname, './fixtures', fileName));
+}
+
+function globFiles(...globs) {
+  return globs.map((glob) => join(__dirname, './fixtures', glob));
 }
 
 describe('merge logic', function () {
@@ -56,6 +61,36 @@ describe('merge logic', function () {
       key:
         - a
         - b
+    ` + '\n'
+    );
+  });
+});
+
+describe('glob logic', function () {
+  it('merges multiple YAML files', function () {
+    const output = merge(...globFiles('basic/*.yml'));
+
+    expect(output).to.equal(
+      stripIndent`
+      a:
+        foo: bar
+      b:
+        foo: bar
+    ` + '\n'
+    );
+  });
+
+  it('merges multiple YAML files (to glob or not to glob)', function () {
+    const output = merge(...globFiles('basic/*.yml', 'merge/a.yml'));
+
+    expect(output).to.equal(
+      stripIndent`
+      a:
+        foo: bar
+      b:
+        foo: bar
+      key:
+        first_value: a
     ` + '\n'
     );
   });
