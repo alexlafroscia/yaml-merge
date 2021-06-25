@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.1.0](https://github.com/alexlafroscia/yaml-merge/compare/v4.0.0...v4.1.0) (2021-06-25)
+
+
+### Features
+
+* add glob matching ([ded7017](https://github.com/alexlafroscia/yaml-merge/commit/ded7017b74dcb65f1d59fb6a621a639cd3ecc624))
+
 ## [4.0.0](https://github.com/alexlafroscia/yaml-merge/compare/v3.0.0...v4.0.0) (2021-01-04)
 
 
