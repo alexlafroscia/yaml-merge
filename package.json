@@ -23,7 +23,7 @@
     "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "@movable/eslint-config": "^0.6.8",
+    "@movable/eslint-config": "^2.0.0",
     "@movable/eslint-config-node": "^0.4.3",
     "@movable/prettier-config": "^0.3.5",
     "chai": "^4.2.0",
