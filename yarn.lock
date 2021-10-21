@@ -326,12 +326,17 @@
   resolved "https://registry.yarnpkg.com/@movable/eslint-plugin-no-wildcard-postmessage/-/eslint-plugin-no-wildcard-postmessage-1.0.0.tgz#528bea91b3097a374b462ea674bae52aa3075c34"
   integrity sha512-hs3DbWwouTYDZWcNy4wd+BIUPFYXhI8vnY3sP5ZbXvxooZzNM5BemrJz08HKI25STqHJC0U3oOIVoolQyfK+mQ==
 
-"@movable/prettier-config@^0.3.5", "@movable/prettier-config@^0.3.6":
+"@movable/prettier-config@^0.3.6":
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/@movable/prettier-config/-/prettier-config-0.3.6.tgz#9f7b214a9b17316cecd9a341049f7467f2e1483d"
   integrity sha512-vt28nuxkBi5yIeoa0jik4yL89EP4reLSS63Z98BgsdXYHRizAJ9Muw1l5WT64fqdTpI2RNU0aiTh11r06Ex1rg==
   dependencies:
     prettier "^2.2.1"
+
+"@movable/prettier-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@movable/prettier-config/-/prettier-config-1.0.0.tgz#d0ae59b1a2e9ce5f1e425289212242baebf6979d"
+  integrity sha512-PIGOnuY3fvfjcnC8hWPSDPtxYm5YYRZ74QW5oaLhc/ih5xc3ez+pCGhIgv1wfsDm8w+Sp9syD5HON/j1VCaEoQ==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
