@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@movable/eslint-config": "^0.6.8",
-    "@movable/eslint-config-node": "^0.4.3",
+    "@movable/eslint-config-node": "^1.0.0",
     "@movable/prettier-config": "^1.0.0",
     "chai": "^4.2.0",
     "common-tags": "^1.4.0",
