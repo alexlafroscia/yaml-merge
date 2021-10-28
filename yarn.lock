@@ -299,10 +299,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@movable/eslint-config-node@^0.4.3":
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/@movable/eslint-config-node/-/eslint-config-node-0.4.3.tgz#09aba5352e149c5338a990cf837a80ac898da9af"
-  integrity sha512-s7p9tIk3XudhPtY5ed6pVbu4glVVDZe5UrKn/BeGoqkvQGjt7VIF1TWnDsVGvD2r3iFglgvzbzGNKoTcsEr5YA==
+"@movable/eslint-config-node@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@movable/eslint-config-node/-/eslint-config-node-1.0.0.tgz#904716666fef0699588ad0cc0062a48fc0b85f58"
+  integrity sha512-B17jUpeOVHxM+5qGB+U5zHW2lGZbqV02ZZ7GH0ULNGCGgnuP7jw77DLgB+v1DRIYXTkM6Cw6Bffo113MZDfZYw==
   dependencies:
     eslint-plugin-node "^11.1.0"
 
